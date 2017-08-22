@@ -10,5 +10,13 @@
 
 @implementation HTCustomButton
 
+/**
+ *  设置边框颜色
+ *
+ *  @param borderColor 可视化视图传入的值
+ */
+- (void)setBorderColor:(UIColor *)borderColor {
+    self.layer.borderColor = borderColor.CGColor;
+}
 
 @end

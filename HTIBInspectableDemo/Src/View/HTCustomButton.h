@@ -15,6 +15,11 @@ typedef NS_ENUM(NSInteger,HTCustomButtonType){
     HTCustomButtonTypeTitleLeft,
 } ;
 
+IB_DESIGNABLE
+
 @interface HTCustomButton : UIButton
+
+/** 可视化设置边框颜色 */
+@property (nonatomic, strong)IBInspectable UIColor *borderColor;
 
 @end
