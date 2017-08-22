@@ -38,5 +38,24 @@
     self.layer.borderColor = [gBorderColor CGColor];
 }
 
+/**
+ *  Normal
+ */
+
+#pragma mark - Normal
+
+- (NSString *)ht_normalTitle {
+    return [self titleForState:UIControlStateNormal];
+}
+- (void)setHt_normalTitle:(NSString *)ht_normalTitle {
+    [self setTitle:ht_normalTitle forState:UIControlStateNormal];
+}
+
+- (UIColor *)ht_normalTitleColor {
+    return [self titleColorForState:UIControlStateNormal];
+}
+- (void)setHt_normalTitleColor:(UIColor *)ht_normalTitleColor {
+    [self setTitleColor:ht_normalTitleColor forState:UIControlStateNormal];
+}
 
 @end

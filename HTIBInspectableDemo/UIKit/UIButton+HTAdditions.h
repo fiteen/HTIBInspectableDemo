@@ -22,4 +22,13 @@
 
 @property (nonatomic,copy) IBInspectable UIColor *gBorderColor; // Defaults to opaque black.
 
+/**
+ *  Normal
+ */
+
+#pragma mark - Normal
+
+@property (nonatomic,copy) NSString *ht_normalTitle;
+@property (nonatomic,copy) UIColor *ht_normalTitleColor;
+
 @end

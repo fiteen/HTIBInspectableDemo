@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D0688286BFB8957416C14C /* libPods-HTIBInspectableDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 151BC1DB16D6FDDFE3090392 /* libPods-HTIBInspectableDemo.a */; };
 		25189BDB1F4BC94100A14C37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25189BDA1F4BC94100A14C37 /* main.m */; };
 		25189BDE1F4BC94100A14C37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25189BDD1F4BC94100A14C37 /* AppDelegate.m */; };
 		25189BE41F4BC94100A14C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25189BE21F4BC94100A14C37 /* Main.storyboard */; };
@@ -15,9 +16,12 @@
 		25189BFA1F4BC99800A14C37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25189BF31F4BC99800A14C37 /* ViewController.m */; };
 		25189BFB1F4BC99800A14C37 /* HTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25189BF61F4BC99800A14C37 /* HTCustomButton.m */; };
 		25189BFC1F4BC99800A14C37 /* UIButton+HTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25189BF91F4BC99800A14C37 /* UIButton+HTAdditions.m */; };
+		25273FE31F4C132700D14A8A /* HTMasonryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25273FE21F4C132700D14A8A /* HTMasonryView.m */; };
+		25273FE51F4C133600D14A8A /* HTMasonryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25273FE41F4C133600D14A8A /* HTMasonryView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151BC1DB16D6FDDFE3090392 /* libPods-HTIBInspectableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTIBInspectableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25189BD61F4BC94100A14C37 /* HTIBInspectableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTIBInspectableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25189BDA1F4BC94100A14C37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25189BDC1F4BC94100A14C37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +36,11 @@
 		25189BF61F4BC99800A14C37 /* HTCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCustomButton.m; sourceTree = "<group>"; };
 		25189BF81F4BC99800A14C37 /* UIButton+HTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HTAdditions.h"; sourceTree = "<group>"; };
 		25189BF91F4BC99800A14C37 /* UIButton+HTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HTAdditions.m"; sourceTree = "<group>"; };
+		25273FE11F4C132700D14A8A /* HTMasonryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMasonryView.h; sourceTree = "<group>"; };
+		25273FE21F4C132700D14A8A /* HTMasonryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMasonryView.m; sourceTree = "<group>"; };
+		25273FE41F4C133600D14A8A /* HTMasonryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTMasonryView.xib; sourceTree = "<group>"; };
+		D3CC71B6207F7C9B42469DF2 /* Pods-HTIBInspectableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIBInspectableDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTIBInspectableDemo/Pods-HTIBInspectableDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D59FB267A9E407173160CA3A /* Pods-HTIBInspectableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIBInspectableDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTIBInspectableDemo/Pods-HTIBInspectableDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D0688286BFB8957416C14C /* libPods-HTIBInspectableDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +60,8 @@
 			children = (
 				25189BD81F4BC94100A14C37 /* HTIBInspectableDemo */,
 				25189BD71F4BC94100A14C37 /* Products */,
+				DFB1BB64E878197669883410 /* Pods */,
+				53E9B02EF99B4D2248BFCEE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +120,9 @@
 			children = (
 				25189BF51F4BC99800A14C37 /* HTCustomButton.h */,
 				25189BF61F4BC99800A14C37 /* HTCustomButton.m */,
+				25273FE11F4C132700D14A8A /* HTMasonryView.h */,
+				25273FE21F4C132700D14A8A /* HTMasonryView.m */,
+				25273FE41F4C133600D14A8A /* HTMasonryView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,6 +136,23 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
+		53E9B02EF99B4D2248BFCEE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				151BC1DB16D6FDDFE3090392 /* libPods-HTIBInspectableDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB1BB64E878197669883410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D59FB267A9E407173160CA3A /* Pods-HTIBInspectableDemo.debug.xcconfig */,
+				D3CC71B6207F7C9B42469DF2 /* Pods-HTIBInspectableDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25189BED1F4BC94100A14C37 /* Build configuration list for PBXNativeTarget "HTIBInspectableDemo" */;
 			buildPhases = (
+				0FD547E7158E2D7D97AF7619 /* [CP] Check Pods Manifest.lock */,
 				25189BD21F4BC94100A14C37 /* Sources */,
 				25189BD31F4BC94100A14C37 /* Frameworks */,
 				25189BD41F4BC94100A14C37 /* Resources */,
+				BB3B9CFA931136FC132589A0 /* [CP] Embed Pods Frameworks */,
+				3A18AEEFD9B24BF299E143EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,12 +216,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				25189BE91F4BC94100A14C37 /* LaunchScreen.storyboard in Resources */,
+				25273FE51F4C133600D14A8A /* HTMasonryView.xib in Resources */,
 				25189BE61F4BC94100A14C37 /* Assets.xcassets in Resources */,
 				25189BE41F4BC94100A14C37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD547E7158E2D7D97AF7619 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A18AEEFD9B24BF299E143EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTIBInspectableDemo/Pods-HTIBInspectableDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3B9CFA931136FC132589A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTIBInspectableDemo/Pods-HTIBInspectableDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25189BD21F4BC94100A14C37 /* Sources */ = {
@@ -198,6 +282,7 @@
 				25189BDE1F4BC94100A14C37 /* AppDelegate.m in Sources */,
 				25189BFA1F4BC99800A14C37 /* ViewController.m in Sources */,
 				25189BDB1F4BC94100A14C37 /* main.m in Sources */,
+				25273FE31F4C132700D14A8A /* HTMasonryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +400,7 @@
 		};
 		25189BEE1F4BC94100A14C37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59FB267A9E407173160CA3A /* Pods-HTIBInspectableDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5YDLJAV22H;
@@ -327,6 +413,7 @@
 		};
 		25189BEF1F4BC94100A14C37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CC71B6207F7C9B42469DF2 /* Pods-HTIBInspectableDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5YDLJAV22H;
@@ -356,6 +443,7 @@
 				25189BEF1F4BC94100A14C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "HTMasonryView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) HTMasonryView *masonryView;
 
 @end
 
@@ -16,7 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
