@@ -16,11 +16,9 @@
 
 #pragma mark - Layer
 
-@property (nonatomic) IBInspectable CGFloat kCornerRadius; // Defaults to zero.
-
-@property (nonatomic) IBInspectable CGFloat kBorderWidth; // Defaults to zero.
-
-@property (nonatomic,copy) IBInspectable UIColor *gBorderColor; // Defaults to opaque black.
+@property (nonatomic) IBInspectable CGFloat kCornerRadius;
+@property (nonatomic) IBInspectable CGFloat kBorderWidth;
+@property (nonatomic,copy) IBInspectable UIColor *gBorderColor;
 
 /**
  *  Normal

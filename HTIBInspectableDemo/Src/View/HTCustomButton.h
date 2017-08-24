@@ -8,18 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger,HTCustomButtonType){
-    HTCustomButtonTypeImageTop = 0,
-    HTCustomButtonTypeTitleTop,
-    HTCustomButtonTypeImageLeft,
-    HTCustomButtonTypeTitleLeft,
-} ;
-
 IB_DESIGNABLE
 
 @interface HTCustomButton : UIButton
 
-/** 可视化设置边框颜色 */
-@property (nonatomic, strong)IBInspectable UIColor *borderColor;
+/** 设置边框颜色可视化 */
+@property (nonatomic, strong)IBInspectable UIColor *customBorderColor;
 
 @end

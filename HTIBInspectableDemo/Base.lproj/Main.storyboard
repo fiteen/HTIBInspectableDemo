@@ -24,9 +24,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w7-sp-re1">
                                 <rect key="frame" x="30" y="70" width="315" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="8hC-xf-bOu"/>
+                                    <constraint firstAttribute="height" constant="45" id="jET-Bl-qOO"/>
                                 </constraints>
-                                <state key="normal" title="使用Category批量设置创建的按钮"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="nib创建-通过Category进行可视化设置的按钮"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="kCornerRadius">
                                         <integer key="value" value="8"/>
@@ -35,16 +36,17 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="gBorderColor">
-                                        <color key="value" red="0.34733897450000001" green="0.60660219189999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.0" green="0.47934520244598389" blue="0.99908632040023804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3h-8y-ODv" customClass="HTCustomButton">
                                 <rect key="frame" x="30" y="155" width="315" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="Ajf-Ke-7Qr"/>
+                                    <constraint firstAttribute="height" constant="45" id="xMN-hT-TkW"/>
                                 </constraints>
-                                <state key="normal" title="HTCustomButton动态刷新创建的按钮"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="nib创建-HTCustomButton动态刷新的按钮"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="8"/>
@@ -53,30 +55,20 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.34733897450000001" green="0.60660219189999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
+                                        <color key="value" red="0.0" green="0.46584489151442104" blue="0.96579552664974622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x9n-IC-hCy" customClass="HTMasonryView">
-                                <rect key="frame" x="0.0" y="240" width="375" height="45"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="LTc-pk-0NJ"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="x9n-IC-hCy" firstAttribute="top" secondItem="y3h-8y-ODv" secondAttribute="bottom" constant="40" id="NSq-3s-gMw"/>
-                            <constraint firstItem="y3h-8y-ODv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="UDn-fm-fha"/>
-                            <constraint firstItem="x9n-IC-hCy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VdJ-DP-WCu"/>
-                            <constraint firstItem="y3h-8y-ODv" firstAttribute="top" secondItem="5w7-sp-re1" secondAttribute="bottom" constant="40" id="hSq-cS-meZ"/>
-                            <constraint firstAttribute="trailing" secondItem="x9n-IC-hCy" secondAttribute="trailing" id="loe-7i-1Ld"/>
-                            <constraint firstAttribute="trailing" secondItem="y3h-8y-ODv" secondAttribute="trailing" constant="30" id="n8g-TG-odC"/>
-                            <constraint firstItem="5w7-sp-re1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="oRD-Ok-rKu"/>
-                            <constraint firstAttribute="trailing" secondItem="5w7-sp-re1" secondAttribute="trailing" constant="30" id="qLD-iQ-QIO"/>
-                            <constraint firstItem="5w7-sp-re1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="zIm-8g-hfq"/>
+                            <constraint firstItem="5w7-sp-re1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="4gM-C7-krd"/>
+                            <constraint firstItem="y3h-8y-ODv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="Nzn-z1-V77"/>
+                            <constraint firstAttribute="trailing" secondItem="y3h-8y-ODv" secondAttribute="trailing" constant="30" id="bja-Ua-dB8"/>
+                            <constraint firstAttribute="trailing" secondItem="5w7-sp-re1" secondAttribute="trailing" constant="30" id="nTA-wm-gIv"/>
+                            <constraint firstItem="y3h-8y-ODv" firstAttribute="top" secondItem="5w7-sp-re1" secondAttribute="bottom" constant="40" id="uiU-W5-VFD"/>
+                            <constraint firstItem="5w7-sp-re1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="uwT-e1-Pq9"/>
                         </constraints>
                     </view>
                 </viewController>

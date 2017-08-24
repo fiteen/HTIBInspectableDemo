@@ -40,7 +40,8 @@ IB_DESIGNABLE
         btn.kCornerRadius = 8.0f;
         btn.kBorderWidth = 1.0f;
         btn.gBorderColor = btn.ht_normalTitleColor;
-        btn.ht_normalTitle = @"Masonry创建的按钮";
+        btn.ht_normalTitle = @"code创建-Masonry布局的按钮";
+        btn.titleLabel.font = [UIFont systemFontOfSize:14.0f];
         [self addSubview:btn];
         btn;
     });

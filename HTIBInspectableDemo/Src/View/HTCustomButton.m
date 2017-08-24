@@ -13,10 +13,10 @@
 /**
  *  设置边框颜色
  *
- *  @param borderColor 可视化视图传入的值
+ *  @param customBorderColor 可视化视图传入的值
  */
-- (void)setBorderColor:(UIColor *)borderColor {
-    self.layer.borderColor = borderColor.CGColor;
+- (void)setCustomBorderColor:(UIColor *)customBorderColor {
+    self.layer.borderColor = customBorderColor.CGColor;
 }
 
 @end

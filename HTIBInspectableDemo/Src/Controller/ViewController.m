@@ -19,8 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initMasonryView];
 }
 
+- (void)initMasonryView {
+    _masonryView = ({
+        HTMasonryView *view = [[HTMasonryView alloc] initWithFrame:CGRectMake(0, 240, [UIScreen mainScreen].bounds.size.width, 45)];
+        [self.view addSubview:view];
+        view;
+    });
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
