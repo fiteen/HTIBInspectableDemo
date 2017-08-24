@@ -35,11 +35,11 @@ xib 和 storyboard 均采用了 Interface Builder（IB）来生成GUI，通过�
 
 这时Xcode的Attributes Inspector栏中就会出现三个新的可编辑属性。
 
-![Attributes Inspector显示的可视化属性](http://wx4.sinaimg.cn/large/ae7fac63gy1fitn2cls1yj207c0a8js4.jpg "Attributes Inspector显示的可视化属性")
+![Attributes Inspector显示的可视化属性](http://wx4.sinaimg.cn/mw690/ae7fac63gy1fitn2cls1yj207c0a8js4.jpg "Attributes Inspector显示的可视化属性")
 
 Identity Inspector下的 User Defined Runtime Attributes也会出现相应的key path和value值。
 
-![User Defined Runtime Attributes](http://wx2.sinaimg.cn/large/ae7fac63gy1fitoxt8bd3j207h0580t0.jpg "User Defined Runtime Attributes显示的可视化属性")
+![User Defined Runtime Attributes](http://wx2.sinaimg.cn/mw690/ae7fac63gy1fitoxt8bd3j207h0580t0.jpg "User Defined Runtime Attributes显示的可视化属性")
 
 设置好后run一下工程就能看到场景中要求的效果，但通常开发者不需要所有的按钮都设置圆角、边框，更多的是采用自定义视图的形式统一处理相似风格的control。为了更高效地开发，接下来介绍宏定义`IB_DESIGNABLE`。
 
