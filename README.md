@@ -1,4 +1,4 @@
-# HTIBInspectableDemo
+# iOS 自动布局进阶之巧用 IBInspectable 和 IB_DESIGNABLE
 
 交互设计和UI设计水准很大程度影响着用户对应用的评价，iOS开发发展至今已逾10年，开发者对于界面UI编码的习惯逐渐分化成三大流派：
 
