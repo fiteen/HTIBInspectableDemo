@@ -1,5 +1,7 @@
 # iOS 自动布局进阶之巧用 IBInspectable 和 IB_DESIGNABLE
 
+> 欢迎访问博客[原文](https://blog.fiteen.top/2017/how-to-use-ib-inspectable-and-ib-designable)
+
 交互设计和UI设计水准很大程度影响着用户对应用的评价，iOS开发发展至今已逾10年，开发者对于界面UI编码的习惯逐渐分化成三大流派：
 
 - code - 易追踪、可复用、便于版本控制，但不直观
